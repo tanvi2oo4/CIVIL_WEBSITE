@@ -2,11 +2,15 @@ body{
     margin:0;
     padding:0;
     height: 100vh;
-    background-image: url(/CIVIL_WEBSITE/IMAGES/blue_back.jpg);
-    background-size:  110% 90vh;
+    background: url(/CIVIL_WEBSITE/IMAGES/blue_back.jpg) 30% -300px no-repeat,#ffffff;
+    background-size:cover;
     /*display: flex;*/
     justify-content: center;
     align-items: center;
+}
+.Map1{
+    background-image: url(/CIVIL_WEBSITE/IMAGES/blue_back.jpg);
+    background-size: cover;
 }
 .Contact{
     text-align: center;
